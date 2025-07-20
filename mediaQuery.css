@@ -1,0 +1,412 @@
+/****************************************Menu normal css************************************/
+ @media (max-width: 1007px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    padding-left: 25px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100vh;
+    background: #000000;
+    flex-direction: column;
+    padding-top: 60px;
+    width: 250px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  .nav-links a {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+  }
+
+  .nav-links.open {
+    right: 0;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+  }
+
+  .overlay.active {
+    display: block;
+  } 
+   
+}
+
+/****************************************Menu normal css ends************************************/
+
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+ /* .buttons a{
+    margin-right: 10px;
+    padding: 5px 25px;
+ } */
+}
+
+/********************************************************************************/
+
+@media(max-width: 556px)
+{
+    .navbar{
+    padding: 25px 25px 25px 25px;
+  }
+  .logo #ss-name{
+    display: none;
+  }
+   .logo{
+    width: 100%;
+  }
+   .logo li{
+   list-style: none;
+}
+  .menu1{
+    display: inline-block;
+    text-align: end; 
+    color: #888;
+  }
+    .menu2{
+      width: 100%;
+    }
+   
+  .nav-links{
+    padding-left: 15px;
+    width: 170px;
+  }
+   
+  .intro{
+    display: none;
+  }
+  .container{
+     text-align: center;
+  }
+  .container1 {
+      margin-top: 25px;
+      display: block;
+       justify-items: center;
+      padding: 10px 0px 0px 0px;
+    }
+  .profile-pic{
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+  .profile-pic img{
+    width: 170px;
+    height: 170px;
+  }
+  .intro-Responsive{
+    display: block;
+    margin-top: 20px;
+   }
+   .social-icons a{
+     display: none;
+   }
+   .buttons a {
+      /* font-size: 13px; */
+      margin: 0px;
+      font-weight: bold;
+      display: block;
+         margin-top: 20px;
+     }
+    .contact-btn {
+      text-align: center;
+      padding: 10px 70px;
+    }
+    .resume-btn {
+      padding: 10px 40px;
+    }
+
+
+    #skills{
+      padding: 20px 0px 20px 0px;
+    }
+    .tech-grid{
+      gap: 10px;
+    }
+
+
+    .education{
+      height: auto;
+    }
+    .credential-link{
+        margin-left: 0rem;
+    }
+
+    .project-card .tech-used-p{
+        margin: 5px 0px;
+    }
+    .project-card .tech-used{
+     padding: 1.5px 4px;
+     margin: 0px 4px;
+     font-size: 14px;
+}
+
+
+    .social-links-contact i{
+     margin: 0px 10px; 
+    }
+    .contact-form{
+      margin-top: 20px;
+    }
+    .contact-box{
+      display: block;
+    }
+
+    form input,
+    form textarea 
+    {
+      padding: 10px;
+      font-size: 11.5px;
+    }
+    form button {
+      padding: 10px;
+      font-size: 14px;
+    }
+}
+/************************************************************************************/
+ 
+@media(max-width: 640px) and (min-width: 556px)
+  {
+  
+  .navbar{
+    padding: 25px 30px 0px 30px;
+  }
+  .logo{
+    width: 100%;
+  }
+   .logo li{
+   list-style: none;
+   width: 50%;
+}
+  .menu1{
+    display: inline-block;
+    text-align: end; 
+    color: #888;
+  }
+/*    
+  .nav-links li a{
+    display: none;
+  } */
+  .intro{
+    display: none;
+  }
+  .container{
+     text-align: center;
+     padding: 80px 50px 0px 50px;
+  }
+  .container1 {
+    padding: 30px 0px 0px 0px;
+      margin-top: 25px;
+      display: block;
+       justify-items: center;
+    }
+  .profile-pic{
+    margin-right: 0px;
+  }
+  .profile-pic img{
+    width: 170px;
+    height: 170px;
+  }
+  .intro-Responsive{
+    display: block;
+    margin-top: 20px;
+   }
+   .social-icons a{
+     display: none;
+   }
+   .buttons a {
+         margin-right: 10px;
+         font-weight: bold;
+     }
+    .contact-btn {
+      padding: 10px 70px;
+    }
+    .resume-btn {
+      padding: 10px 40px;
+    }
+    .education{
+      height: auto;
+    }
+    .credential-link{
+        margin-left: 0rem;
+    }
+
+    .contact-form{
+      margin-top: 20px;
+    }
+    .contact-box{
+      display: block;
+    }
+}
+ /********************************************************************************/
+
+ @media(min-width: 640px) and (max-width: 1007px) {
+
+  .navbar{
+    padding: 25px 50px 25px 50px;
+    /* align-items: start; */
+  }
+  .logo{
+    width: 100%;
+  }
+   .logo li{
+   list-style: none;
+   width: 50%;
+}
+  .menu1{
+    display: inline-block;
+    text-align: end; 
+    color: #888;
+  }
+  /* nav{
+    display: none;
+  } */
+  .intro{
+    display: none;
+  }
+  .container{
+    display: block;
+    text-align: center;
+     justify-content: center;
+     padding: 80px 50px 0px 50px;
+  }
+  .container1 {
+      margin-top: 25px;
+      display: block;
+      text-align: center;
+      padding: 50px 5px 0px 5px;
+    }
+  .profile-pic{
+    margin-right: 0px;
+  }
+  .profile-pic img{
+    width: 170px;
+    height: 170px;
+  }
+   .social-icons a{
+     display: none;
+   }
+   .intro-Responsive{
+    display: block;
+    margin-top: 20px;
+   }
+   .buttons a {
+         /* margin-right: 10px; */
+         font-weight: bold;
+     }
+    .contact-btn {
+      padding: 10px 70px;
+    }
+    .resume-btn {
+      padding: 10px 40px;
+    }
+    .credential-link{
+        margin-left: 0rem;
+      
+    }
+    .contact-form{
+      margin-top: 20px;
+    }
+    .social-links-contact i{
+     margin: 0px 10px; 
+    }
+}
+ /**************************************same as the dekstop*****************************************/
+ @media(min-width: 1007px) and (max-width: 1258px) 
+ {
+    .navbar{
+        padding: 25px 50px;
+    }
+    .container{
+        padding: 100px 50px 10px 50px;
+    }
+    .container1{
+        padding: 45px 50px 10px 50px;
+    }
+    .logo {
+     font-size: 22px;
+     font-weight: bold;
+    }
+    #ss{
+    padding: 0px 2px;
+      
+    } 
+     .menu, .menu1{
+      display: none;
+     }
+      
+    .nav-links li a {
+    font-size: 16px;
+    padding: 4px 10px;
+   
+    }
+    .profile-pic img{
+      width: 200px;
+      height: 200px;
+    }
+    .intro-Responsive{
+      display: none;
+    }
+    .buttons a {
+         margin-right: 20px;
+     }
+    .contact-btn {
+      padding: 10px 50px;
+    }
+    .resume-btn {
+      padding: 10px 25px;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin-right: 55px;
+      color: #00f0ff;
+      font-size: 11px;
+      border: 2px solid #00f0ff;
+      border-radius: 50%;
+      padding: 11px;
+    }
+
+    /***************************certificates & education start**************************/
+    .certifications{
+       width: 450px;
+    }
+    .education{
+       width: 450px;
+       height: 500px;
+    }
+    .credential-link{
+        margin-left: 17rem;
+    }
+    /***************************certificates & education Ends ********************/
+    }
+
+    
+
+ 
